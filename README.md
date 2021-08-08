@@ -60,3 +60,12 @@ Git Commands
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+| Command | Description |
+| ------- | ----------- |
+| `git lfs install` | For large file storage, use it for every github repository |
+| `git lfs track "*.psd"` | Configuring additional file extension |
+| `git add .gitattributes` | To make sure .gitattributes is tracked |
+
+
+
