@@ -68,4 +68,7 @@ Git Commands
 | `git add .gitattributes` | To make sure .gitattributes is tracked |
 
 
-
+| Command | Description |
+| ------- | ----------- |
+|`git remote set-url origin git@github.com:username/repo.git`| Update the URL of origin remote using SSH instead of HTTPS |
+|`git config --global credential.helper store`|  Git store the username and password |
