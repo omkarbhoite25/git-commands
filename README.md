@@ -51,6 +51,7 @@ Git Commands
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+|`git config --global credential.helper store`|  Git store the username and password |
 
 ### Inspection & Comparison
 
@@ -66,9 +67,3 @@ Git Commands
 | `git lfs install` | For large file storage, use it for every github repository |
 | `git lfs track "*.psd"` | Configuring additional file extension |
 | `git add .gitattributes` | To make sure .gitattributes is tracked |
-
-
-| Command | Description |
-| ------- | ----------- |
-|`git remote set-url origin git@github.com:username/repo.git`| Update the URL of origin remote using SSH instead of HTTPS |
-|`git config --global credential.helper store`|  Git store the username and password |
