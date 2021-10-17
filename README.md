@@ -67,3 +67,10 @@ Git Commands
 | `git lfs install` | For large file storage, use it for every github repository |
 | `git lfs track "*.psd"` | Configuring additional file extension |
 | `git add .gitattributes` | To make sure .gitattributes is tracked |
+
+
+### Docker
+
+| Command | Description |
+| ------- | ----------- |
+| `docker exec -it <container_id> bash` | To open multiple docker terminals |
